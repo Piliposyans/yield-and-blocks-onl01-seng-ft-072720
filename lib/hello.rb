@@ -14,3 +14,7 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end 
 end 
+
+def hello_t(names)
+  badge = 0 
+  
