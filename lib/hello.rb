@@ -13,7 +13,7 @@ def hello_t(names)
  end 
 end
 
-#hello_t
+#hello_t(names)
      
  ["Tim", "Tom", "Jim"].each do |name|
   if name.start_with?("T")
