@@ -7,7 +7,7 @@ def hello_t(names)
    badge = badge + 1 
  end
  
-   badge
+  names 
  else 
    puts "Hey! No block was given!"
  end 
