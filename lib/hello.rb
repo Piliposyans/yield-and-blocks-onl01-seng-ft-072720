@@ -6,6 +6,8 @@ def hello_t(names)
  end 
  badge
 end
+
+#hello_t(names)
      
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
