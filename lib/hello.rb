@@ -7,9 +7,9 @@ def hello_t(names)
  badge
 end
 
-#hello_t(name)
+#hello_t(names)
      
-hello_t(["Tim", "Tom", "Jim"]) do |name|
+def hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.starts_with?("T")
     puts "Hi, #{name}"
   end 
